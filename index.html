@@ -16,8 +16,8 @@
                 return;
             }
 
-            // القيام بعملية التنقيص
-            while (number1 - number2 >= 1) {
+            // القيام بعملية التنقيص والتحقق من ألا يصبح الرقم سالبًا أو صفرًا
+            while (number1 - number2 > 0) {
                 number1 -= number2;
             }
 
